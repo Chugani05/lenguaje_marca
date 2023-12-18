@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <h1>LISTA DE ALUMNOS:</h1>
             <ul>
 <!-- Todo lo que tenga el prefijo xsl serán reglas para transformar el documento xml de entrada mediante plantillas-->
-            <xsl:apply-templates select="/instituto/curso/alumno[apellidos[contains(text(),'Perez')]]"/>
+            <xsl:apply-templates select="/instituto/curso/alumno[apellidos[contains(text(),'Pérez')]]"/>
 <!-- indicamos que se apliquen las plantillas a los nodos curso y descendientes-->
             </ul>
         </body>
