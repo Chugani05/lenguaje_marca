@@ -27,3 +27,4 @@
 2. referencia cliente, nombre cliente, referencia articulo que ha pedido algún artículo de bebidas.
 3. referencia articulo, nombre de articulo, referencia proveedor, nombre proveedor de todos articulos de bebida.
 4. nombre de cliente, nombre de articulo, nombre de proveedor de los articulos cuyo nombre de categoria es bebida.
+
