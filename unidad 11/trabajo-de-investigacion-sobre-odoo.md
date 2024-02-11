@@ -1,4 +1,5 @@
 # Explorando Odoo: Una visión integral de su funcionalidad y evolución
+![Odoo](https://media.licdn.com/dms/image/D4D12AQGEwmVhjP2yyw/article-cover_image-shrink_720_1280/0/1672408751226?e=2147483647&v=beta&t=8zvPhOxGKDjhcI-BXshZw-fAyr3G6fskB47_0PPgLxA)
 
 ## Introducción:
 Odoo es un sistema de gestión empresarial (ERP) de código abierto que ofrece una amplia gama de aplicaciones para gestionar diversos aspectos de una empresa, como ventas, inventario, contabilidad y recursos humanos. En este trabajo, exploraremos en detalle qué es Odoo, su historia, así como los componentes principales de sus módulos de operaciones, ventas y sitio web.
