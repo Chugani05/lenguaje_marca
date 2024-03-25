@@ -9,9 +9,9 @@
             border-color: black;
             background-color: white;
         }
-        label {
+        .text {
+            float: left;
             margin-right: 10px;
-            text-align: center;
         }
     </style>
 </head>
@@ -23,36 +23,47 @@
     <form>
         <fieldset style="background-color: #cbcbcb;">
             <legend>Datos personales</legend>
-            <label for="name">Nombre:</label> 
-            <label for="lastname">Apellidos:</label>   
-            <label for="dni">DNI:</label>
-            <br>
-            <input type="text" id="name" name="name"/>
-            <input type="text" id="lastname" name="lastname"/>
-            <input type="text" id="dni" name="dni"/>
-            <br>
-            <br>
-            <label for="localidad">Localidad Nacimiento:</label>
-            <label for="provincia">Provincia:</label>
-            <label for="fecha_nac">Fecha Nacimiento</label>
-            <br>
-            <input type="text" id="localidad" name="localidad"/>
-            <select id="provincia" name="provincia">
-                <option value="provincia">- Selecciona -</option>
-                <option value="provincia">Santa Cruz de Tenerife</option>
-                <option value="provincia">Puerto de la Cruz</option>
-                <option value="provincia">La Laguna</option>
-                <option value="provincia">Costa Adeje</option>
-                <option value="provincia">Los Cristianos</option>
-            </select>
-            <input type="date" id="fecha_nac" name="fecha_nac"/>
-            <br>
-            <br>
-            <label for="direccion">Dirección:</label>
-            <label for="codigo_postal">Código postal:</label>
-            <br>
-            <input type="text" id="direccion" name="direccion"/>
-            <input type="text" id="codigo_postal" name="codigo_postal"/>
+            <div class="text">
+                <label for="name">Nombre:</label><br> 
+                <input type="text" id="name" name="name"/>
+            </div>
+            <div class="text">
+                <label for="lastname">Apellidos:</label><br>   
+                <input type="text" id="lastname" name="lastname"/>
+            </div>
+            <div class="text">
+                <label for="dni">DNI:</label><br>
+                <input type="text" id="dni" name="dni"/>
+            </div>
+            <br><br><br> 
+            <div class="text">
+                <label for="localidad">Localidad Nacimiento:</label><br>
+                <input type="text" id="localidad" name="localidad"/>
+            </div>
+            <div class="text">
+                <label for="provincia">Provincia:</label><br>
+                <select id="provincia" name="provincia">
+                    <option value="provincia">- Selecciona -</option>
+                    <option value="provincia">Santa Cruz de Tenerife</option>
+                    <option value="provincia">Puerto de la Cruz</option>
+                    <option value="provincia">La Laguna</option>
+                    <option value="provincia">Costa Adeje</option>
+                    <option value="provincia">Los Cristianos</option>
+                </select>
+            </div>
+            <div class="text">
+                <label for="fecha_nac">Fecha Nacimiento</label><br>
+                <input type="date" id="fecha_nac" name="fecha_nac"/>
+            </div>
+            <br><br><br>
+            <div class="text">
+                <label for="direccion">Dirección:</label><br>
+                <input type="text" id="direccion" name="direccion" size="50%"/>
+            </div>
+            <div class="text">
+                <label for="codigo_postal">Código postal:</label><br>
+                <input type="text" id="codigo_postal" name="codigo_postal"/>
+            </div>
         </fieldset>
         <fieldset style="background-color: #ffe3c3;">
             <legend>Información de acceso</legend>
