@@ -1,4 +1,4 @@
-# Diferencia entre nth-of-type y nth-child:
+# Diferencia entre nth-child y nth-of-type:
 
 - **`nth-child`:** Selecciona elementos según su posición **general** como elemento hijo. En el caso de que hagamos por ejemplo nth-child(1n) pillará los hijos impares (hijo1, hijo3, hijo 5, etc.).
 - **`nth-of-type`:** Selecciona elementos según su posición entre **elementos del mismo tipo** dentro del padre. En el caso de que hagamos por ejemplo nth-of-type(1n) pillará los elementos del mismo tipo impares (si especificasemos para los párrafos (etiqueta p) sería el párrafo 1, 3, 5, etc.).
