@@ -31,60 +31,77 @@
           border-spacing: 5px;
           padding: 10px;
         }
-        th {
-          background-color: ;
-        }
         .cabecera {
           color: green;
           font-weight: bold;
           background-color: #FAAC58;
         }
-        .euro-alineadoDcha {
-
+        .euro {
+          text-align: right;
+          background-color: #E6E6E6;
+        }
+        .dolar {
+          text-align: right;
+          background-color: #D8D8D8;
+        }
+        .libra {
+          text-align: right;
+          background-color: #BDBDBD;
+        }
+        .yen {
+          text-align: right;
+          background-color: #A4A4A4;
+        }
+        .azul {
+          text-align: left;
+          background-color: #81DAF5;
+        }
+        .verde {
+          text-align: left;
+          background-color: #81F79F;
         }
 
         </style>
     </head>
     <body>
-        <div class="contenedor">
-
-            <table id="tablaCambio">
-              <tr class="cabecera">
-                <th>Cambio</th>
-                <th>Compra</th>
-                <th>Venta</th>
-                <th>Máximo</th>
-                <th>Mínimo</th>
-              </tr>
-              <tr>
-                <th class="euro-alineadoDcha">Euro/Dolar</th>
-                <td>1.25</td>
-                <td>1.25</td>
-                <td>1.25</td>
-                <td>1.24</td>
-              </tr>
-              <tr>
-                <th class="dolar alineadoDcha">Dolar/Yen</th>
-                <td>119.01</td>
-                <td>119.05</td>
-                <td>119.82</td>
-                <td>119.82</td>
-              </tr>
-              <tr>
-                <th class="libra alineadoDcha">Libra/Dolar</th>
-                <td>1.86</td>
-                <td>1.86</td>
-                <td>1.86</td>
-                <td>1.85</td>
-              </tr>
-              <tr>
-                <th class="yen alineadoDcha">Yen/Euro</th>
-                <td>0.67</td>
-                <td>0.67</td>
-                <td>0.66</td>
-                <td>0.67</td>
-              </tr>
-            </table>
-        </div>
+      <div class="contenedor">
+        <table id="tablaCambio">
+          <tr class="cabecera">
+            <th>Cambio</th>
+            <th>Compra</th>
+            <th>Venta</th>
+            <th>Máximo</th>
+            <th>Mínimo</th>
+          </tr>
+          <tr>
+            <th class="euro">Euro/Dolar</th>
+            <td class="verde">1.25</td>
+            <td class="verde">1.25</td>
+            <td class="verde">1.25</td>
+            <td class="verde">1.24</td>
+          </tr>
+          <tr>
+            <th class="dolar">Dolar/Yen</th>
+            <td class="azul">119.01</td>
+            <td class="azul">119.05</td>
+            <td class="azul">119.82</td>
+            <td class="azul">119.82</td>
+          </tr>
+          <tr>
+            <th class="libra">Libra/Dolar</th>
+            <td class="verde">1.86</td>
+            <td class="verde">1.86</td>
+            <td class="verde">1.86</td>
+            <td class="verde">1.85</td>
+          </tr>
+          <tr>
+            <th class="yen">Yen/Euro</th>
+            <td class="azul">0.67</td>
+            <td class="azul">0.67</td>
+            <td class="azul">0.66</td>
+            <td class="azul">0.67</td>
+          </tr>
+        </table>
+      </div>
     </body>
 </html>
